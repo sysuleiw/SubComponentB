@@ -43,7 +43,9 @@
 
 - (void)btnAction
 {
-        [self presentViewController:[SubComponentB new] animated:YES completion:nil];
+    SubComponentB *vc = [SubComponentB new];
+//    vc.a = 2;
+        [self presentViewController:vc animated:YES completion:nil];
 //    [MGJRouter openURL:@"gfloan://subcomponentc" withUserInfo:@{@"presentvc":self} completion:^(id result) {
 //    }];
 }

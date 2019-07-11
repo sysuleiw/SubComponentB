@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SubComponentB: UIViewController
 
+@property (nonatomic, assign) CGFloat a;
 @end
 
 NS_ASSUME_NONNULL_END

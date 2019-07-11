@@ -30,13 +30,22 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SubComponentB/Classes/**/*'
-  
+#  s.source_files = 'SubComponentB/Classes/**/*'
+
+# IS_SOURCE=1 pod install
+  if ENV['IS_SOURCE']
+      s.source_files = [
+      'SubComponentB/Classes/*.{h,m}',
+      ]
+  else
+      s.ios.vendored_framework = 'framework/ios/SubComponentB.framework'
+#      s.ios.vendored_framework = 'framework/ios/SubComponentB.embeddedframework/SubComponentB.framework'
+  end
   # s.resource_bundles = {
   #   'SubComponentB' => ['SubComponentB/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+#   s.public_header_files = 'SubComponentB/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'MGJRouter', '~>0.9.0'

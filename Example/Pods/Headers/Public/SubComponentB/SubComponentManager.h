@@ -1,0 +1,1 @@
+../../../../../SubComponentB/Classes/SubComponentManager.h

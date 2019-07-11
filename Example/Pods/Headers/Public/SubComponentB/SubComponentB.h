@@ -1,0 +1,1 @@
+../../../../../SubComponentB/Classes/SubComponentB.h

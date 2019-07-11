@@ -6,7 +6,6 @@
 //
 
 #import "SubComponentB.h"
-
 @interface SubComponentB ()
 
 @property (nonatomic, strong) UILabel *label;
@@ -20,7 +19,7 @@
     self.label = [UILabel new];
     self.label.frame = UIScreen.mainScreen.bounds;
     self.label.backgroundColor = [UIColor whiteColor];
-    self.label.text = @"1我是子模块BBBB";
+    self.label.text = @"3我是子模块BBBB";
     [self.view addSubview:self.label];
 }
 

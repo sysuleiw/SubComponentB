@@ -1,15 +1,22 @@
 PODS:
-  - SubComponentB (0.1.0)
+  - MGJRouter (0.9.3)
+  - SubComponentB (0.1.0):
+    - MGJRouter (~> 0.9.0)
 
 DEPENDENCIES:
   - SubComponentB (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MGJRouter
 
 EXTERNAL SOURCES:
   SubComponentB:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SubComponentB: 8b5cd966778fadfb3c51bbd7f5b954132ca4ea50
+  MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
+  SubComponentB: e5bc967b6d99d99bd3fcf84c07d293bcaa0af708
 
 PODFILE CHECKSUM: e6177d4d20ba94bd44514fc58d561625ed9f365b
 

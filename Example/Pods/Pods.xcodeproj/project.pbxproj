@@ -7,28 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B5F8302273ED77CCDDC27E1CFB5D388 /* Pods-SubComponentB_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D6BFF7FDC84D23C7D8EDBD054BC002 /* Pods-SubComponentB_Example-dummy.m */; };
-		2EE0B20BB75C641D34FB5D391F70EEC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4756857AD3C259AE03BED0C7A9E266C6 /* SubComponentB.h in Headers */ = {isa = PBXBuildFile; fileRef = 38859BDD606D3E465E9FE07FA2546490 /* SubComponentB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06C01B78BEAA957202E0880098CF6E6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */; };
+		14B855B65841D9D55D38CA3F0EC67436 /* SubComponentB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2F96F1469EEA7D069F5E65B8359A2F /* SubComponentB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17B9D7E4EE17D6501405084D9E6E23F7 /* SubComponentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C342F04AA2FFF5B532B48CC51D94A36 /* SubComponentManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3804DC459A6A181CA63058174483C883 /* MGJRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719001469042E6C898B6512E0B9AE83E /* MGJRouter.framework */; };
+		48B3D7ED90DFB8A95FDD380D7C589088 /* MGJRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = C621F68D522021B0B0F285208EFA958E /* MGJRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B942411E426D1B896EECE5CA2B78158 /* Pods-SubComponentB_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E70DBC65AD8023D688514C0518A0B8 /* Pods-SubComponentB_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		577749A004E3113B135EA25C9EE968C3 /* Pods-SubComponentB_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFC653A7B236BF2F9BB1CAB956F30603 /* Pods-SubComponentB_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61931F1F680FD23F951C6FB32E94F3ED /* SubComponentB.m in Sources */ = {isa = PBXBuildFile; fileRef = D7420EC01C852BC0AC863D2A67FCD5D3 /* SubComponentB.m */; };
+		5576F0D6941A02E119D59320209B5E64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */; };
+		575DF04C2890E4FA40D21396FDC2F0C7 /* SubComponentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DE57BAD8A89CCA0DACA656A1BB1D2 /* SubComponentManager.m */; };
+		576B7328FD59072438E4EBFEB9CCF237 /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 741043923B58C1972007E53EEC791F1A /* MGJRouter.m */; };
+		61CA328C9FDAE8EE2EFCB32945AFC56E /* Pods-SubComponentB_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D6BFF7FDC84D23C7D8EDBD054BC002 /* Pods-SubComponentB_Example-dummy.m */; };
 		6606017C4716644473AC5688CFECA1A5 /* Pods-SubComponentB_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5058520D911931158D8BE78C80686E4D /* Pods-SubComponentB_Tests-dummy.m */; };
-		6A3215467FE764E724F75DD5B90BDAF0 /* SubComponentB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2F96F1469EEA7D069F5E65B8359A2F /* SubComponentB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FE7043CB4840A74AAAD2D254F9A2B6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B25C06EB9B597A7F688F885E49CB4A5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E81CEAEB7BED87FA504A76BEF69A56CD /* SubComponentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 187DE57BAD8A89CCA0DACA656A1BB1D2 /* SubComponentManager.m */; };
-		F79C361BE9CBECE0AA93E349F4733CCE /* SubComponentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C342F04AA2FFF5B532B48CC51D94A36 /* SubComponentManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC432E0933C1A996ACF680DF98CCE2E8 /* SubComponentB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB62682FC8F5C363E03822A10BDD44 /* SubComponentB-dummy.m */; };
+		85FCE32FBBF1D5E2F9A50583444B1DA0 /* Pods-SubComponentB_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFC653A7B236BF2F9BB1CAB956F30603 /* Pods-SubComponentB_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A62283EC0572B592E169E886DB36EE7F /* MGJRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F17FBF0801A03EA50AE070372C03AE5 /* MGJRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25C06EB9B597A7F688F885E49CB4A5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */; };
+		C36F7FA1DDC5CE7C6B97605D96592273 /* SubComponentB.m in Sources */ = {isa = PBXBuildFile; fileRef = D7420EC01C852BC0AC863D2A67FCD5D3 /* SubComponentB.m */; };
+		D03BC0C21FD004096DB94533FDDEC02C /* MGJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E35FC81DF646DEFE5ECE74920DA4C3B8 /* MGJRouter-dummy.m */; };
+		E7D8AD38D02616BDE3753C44E0C5D37E /* SubComponentB.h in Headers */ = {isa = PBXBuildFile; fileRef = 38859BDD606D3E465E9FE07FA2546490 /* SubComponentB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAA181B253A9E6A7089B6C6E78AB4866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */; };
+		FBD63F1EB51AFD9A0DFBE347027A16E3 /* SubComponentB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB62682FC8F5C363E03822A10BDD44 /* SubComponentB-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C58AC64E2B9F041F217460FEBD2A0DB /* PBXContainerItemProxy */ = {
+		2E2B900C2B238565383E004FFDBF9769 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6C3405BE0DFAD1677B9D7A4429DB1FF2;
-			remoteInfo = SubComponentB;
+			remoteGlobalIDString = 05EFAB4641387DB59867C088BAF00810;
+			remoteInfo = MGJRouter;
+		};
+		7FB2E232BC5A7B2C6E88100B8491E74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05EFAB4641387DB59867C088BAF00810;
+			remoteInfo = MGJRouter;
 		};
 		8E6467A2AAEE9A02CBA8F4AC0882E4A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -36,6 +49,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = C50A3A9133B9BA13E04136D1B222EFDC;
 			remoteInfo = "Pods-SubComponentB_Example";
+		};
+		F6FBF47696B2D91D9A5FF7E28C8A1470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C3405BE0DFAD1677B9D7A4429DB1FF2;
+			remoteInfo = SubComponentB;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -45,44 +65,71 @@
 		25270C2800780FBE551FECF694290569 /* SubComponentB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SubComponentB.modulemap; sourceTree = "<group>"; };
 		2D2F96F1469EEA7D069F5E65B8359A2F /* SubComponentB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SubComponentB-umbrella.h"; sourceTree = "<group>"; };
 		2FDB62682FC8F5C363E03822A10BDD44 /* SubComponentB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SubComponentB-dummy.m"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3216458375CBF2A49DAD31C847546F5D /* Pods-SubComponentB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SubComponentB_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		36688595C94EA30ABD6CA7FD2744EDFD /* MGJRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGJRouter-Info.plist"; sourceTree = "<group>"; };
 		3705CB31F382AFBE943837275A060D8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		38859BDD606D3E465E9FE07FA2546490 /* SubComponentB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubComponentB.h; path = SubComponentB/Classes/SubComponentB.h; sourceTree = "<group>"; };
+		38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3DB54939EA0106234865731AD35EC891 /* Pods-SubComponentB_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SubComponentB_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		410558060794E6D47E8BB11CE488C296 /* MGJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGJRouter.framework; path = MGJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4577D5F19E39E03437D0CE15A89F7646 /* Pods_SubComponentB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SubComponentB_Tests.framework; path = "Pods-SubComponentB_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F17DDA100FD243822F6384AA2B74779 /* Pods-SubComponentB_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SubComponentB_Tests.modulemap"; sourceTree = "<group>"; };
 		5058520D911931158D8BE78C80686E4D /* Pods-SubComponentB_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SubComponentB_Tests-dummy.m"; sourceTree = "<group>"; };
 		51D6BFF7FDC84D23C7D8EDBD054BC002 /* Pods-SubComponentB_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SubComponentB_Example-dummy.m"; sourceTree = "<group>"; };
 		53E70DBC65AD8023D688514C0518A0B8 /* Pods-SubComponentB_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SubComponentB_Tests-umbrella.h"; sourceTree = "<group>"; };
 		55F8853A2DBE80AB87C0DF58F9401310 /* SubComponentB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SubComponentB.xcconfig; sourceTree = "<group>"; };
 		583EB9E4CFEC116C8E329720EAF0FAF6 /* Pods-SubComponentB_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SubComponentB_Example.modulemap"; sourceTree = "<group>"; };
-		5E4C42A32CF458C8804F0F2834400EF2 /* SubComponentB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SubComponentB.framework; path = SubComponentB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		636D354F9A19791FA1EF24883D5E4180 /* Pods-SubComponentB_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SubComponentB_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		70527DCEED1F9918ACC9CAF90D629E7D /* MGJRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGJRouter.modulemap; sourceTree = "<group>"; };
+		719001469042E6C898B6512E0B9AE83E /* MGJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		741043923B58C1972007E53EEC791F1A /* MGJRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGJRouter.m; path = MGJRouter/MGJRouter.m; sourceTree = "<group>"; };
 		7601D35E7D195869B21474B93CCF7636 /* Pods-SubComponentB_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SubComponentB_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7BDEB848A2C8724475C4BBD6DABA7FEC /* SubComponentB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SubComponentB.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7C342F04AA2FFF5B532B48CC51D94A36 /* SubComponentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubComponentManager.h; path = SubComponentB/Classes/SubComponentManager.h; sourceTree = "<group>"; };
+		8F17FBF0801A03EA50AE070372C03AE5 /* MGJRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A117D90F7B106124902910A557E7D3D8 /* Pods-SubComponentB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SubComponentB_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C87EFE650670B168273408BDD4E22EA7 /* Pods_SubComponentB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SubComponentB_Example.framework; path = "Pods-SubComponentB_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADD633993E74B102D183570FA35FF78 /* MGJRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJRouter.xcconfig; sourceTree = "<group>"; };
+		BB8AD6ACFD9542BF9110BE9981A1C054 /* SubComponentB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SubComponentB.framework; path = SubComponentB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C621F68D522021B0B0F285208EFA958E /* MGJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGJRouter.h; path = MGJRouter/MGJRouter.h; sourceTree = "<group>"; };
 		C941A962D7DB6854B7C7925C24D23000 /* Pods-SubComponentB_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SubComponentB_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C98A2B778A9A1876989A0E6DEDDF92DB /* Pods_SubComponentB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SubComponentB_Example.framework; path = "Pods-SubComponentB_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21101EA392AB401CA6986A748AAA830 /* Pods-SubComponentB_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SubComponentB_Tests-Info.plist"; sourceTree = "<group>"; };
 		D29ADF599DB1DD054DD2162B90C63D77 /* Pods-SubComponentB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SubComponentB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D399C8F68ADD4EFD378B308B8670967A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D5CBA41F3BC6925B785DB7A947F40380 /* MGJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-prefix.pch"; sourceTree = "<group>"; };
 		D6C0E58AA1F87FEAA34D9B87908BB946 /* Pods-SubComponentB_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SubComponentB_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D7420EC01C852BC0AC863D2A67FCD5D3 /* SubComponentB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubComponentB.m; path = SubComponentB/Classes/SubComponentB.m; sourceTree = "<group>"; };
-		D94927629EBF0B59055DD1322DD55DA1 /* Pods_SubComponentB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SubComponentB_Tests.framework; path = "Pods-SubComponentB_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB64D66366C4E28BD175ADE34CAE1DDE /* Pods-SubComponentB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SubComponentB_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E35FC81DF646DEFE5ECE74920DA4C3B8 /* MGJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGJRouter-dummy.m"; sourceTree = "<group>"; };
 		E3B19A47F2BCAF518131F3EE68F9B65E /* Pods-SubComponentB_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SubComponentB_Example-Info.plist"; sourceTree = "<group>"; };
 		EFC653A7B236BF2F9BB1CAB956F30603 /* Pods-SubComponentB_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SubComponentB_Example-umbrella.h"; sourceTree = "<group>"; };
 		FDC9960D2AD57BEE597521A8751A18C5 /* SubComponentB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SubComponentB-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8ABB6A2D4CD6A1934B5B59F5554DF313 /* Frameworks */ = {
+		216FE884E075AC6D16057D278DB3E5A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EE0B20BB75C641D34FB5D391F70EEC3 /* Foundation.framework in Frameworks */,
+				FAA181B253A9E6A7089B6C6E78AB4866 /* Foundation.framework in Frameworks */,
+				3804DC459A6A181CA63058174483C883 /* MGJRouter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480886415933A7DE4562644F18E9A7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5576F0D6941A02E119D59320209B5E64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AB940BC4E1101B08B9351A44B1C7C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C01B78BEAA957202E0880098CF6E6D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,14 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B25C06EB9B597A7F688F885E49CB4A5F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE3CA66893510454B28167E4AD6CD315 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FE7043CB4840A74AAAD2D254F9A2B6E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +161,17 @@
 			path = "Target Support Files/Pods-SubComponentB_Example";
 			sourceTree = "<group>";
 		};
+		2AECDAE11CB2C2336A3EF8D675ECFB51 /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				C621F68D522021B0B0F285208EFA958E /* MGJRouter.h */,
+				741043923B58C1972007E53EEC791F1A /* MGJRouter.m */,
+				8BF7EADB2CB2A580C43173EDA381A377 /* Support Files */,
+			);
+			name = MGJRouter;
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
 		2C7A8E6CAD8A6FADD127130992B05C7F /* Pods-SubComponentB_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,14 +188,40 @@
 			path = "Target Support Files/Pods-SubComponentB_Tests";
 			sourceTree = "<group>";
 		};
-		375ADFC64D47CB5E6BC2D68B248BCAF7 /* Products */ = {
+		54A678366BD51208861795F179115281 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C87EFE650670B168273408BDD4E22EA7 /* Pods_SubComponentB_Example.framework */,
-				D94927629EBF0B59055DD1322DD55DA1 /* Pods_SubComponentB_Tests.framework */,
-				5E4C42A32CF458C8804F0F2834400EF2 /* SubComponentB.framework */,
+				2AECDAE11CB2C2336A3EF8D675ECFB51 /* MGJRouter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65F4D7727079B4A2780EA2886072F3BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				719001469042E6C898B6512E0B9AE83E /* MGJRouter.framework */,
+				7B3A87364B81ED429D3E293780AB3A80 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69F4FB18CDC16ABFB27DF879F46EDCD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410558060794E6D47E8BB11CE488C296 /* MGJRouter.framework */,
+				C98A2B778A9A1876989A0E6DEDDF92DB /* Pods_SubComponentB_Example.framework */,
+				4577D5F19E39E03437D0CE15A89F7646 /* Pods_SubComponentB_Tests.framework */,
+				BB8AD6ACFD9542BF9110BE9981A1C054 /* SubComponentB.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7B3A87364B81ED429D3E293780AB3A80 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		81BF77669902291FF9AF953B1ACF982F /* Support Files */ = {
@@ -162,6 +238,20 @@
 			path = "Example/Pods/Target Support Files/SubComponentB";
 			sourceTree = "<group>";
 		};
+		8BF7EADB2CB2A580C43173EDA381A377 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70527DCEED1F9918ACC9CAF90D629E7D /* MGJRouter.modulemap */,
+				BADD633993E74B102D183570FA35FF78 /* MGJRouter.xcconfig */,
+				E35FC81DF646DEFE5ECE74920DA4C3B8 /* MGJRouter-dummy.m */,
+				36688595C94EA30ABD6CA7FD2744EDFD /* MGJRouter-Info.plist */,
+				D5CBA41F3BC6925B785DB7A947F40380 /* MGJRouter-prefix.pch */,
+				8F17FBF0801A03EA50AE070372C03AE5 /* MGJRouter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGJRouter";
+			sourceTree = "<group>";
+		};
 		BDDDCF27F637E2A59098C63047C871C3 /* SubComponentB */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,14 +264,6 @@
 			);
 			name = SubComponentB;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		C8EC05BC2382CFE56B24AA174E3823AC /* Pod */ = {
@@ -199,18 +281,11 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				F9955A62AA253CBA6081CF4E725DEE55 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				375ADFC64D47CB5E6BC2D68B248BCAF7 /* Products */,
+				65F4D7727079B4A2780EA2886072F3BE /* Frameworks */,
+				54A678366BD51208861795F179115281 /* Pods */,
+				69F4FB18CDC16ABFB27DF879F46EDCD5 /* Products */,
 				FEB063BC9250D149F48FB0A11CF0A467 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F9955A62AA253CBA6081CF4E725DEE55 /* Development Pods */ = {
@@ -233,13 +308,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C30491E46DBCE3E0E49AFE2F9967EA2 /* Headers */ = {
+		009B6EFDBFA9848BA9E4444393ED7F88 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A3215467FE764E724F75DD5B90BDAF0 /* SubComponentB-umbrella.h in Headers */,
-				4756857AD3C259AE03BED0C7A9E266C6 /* SubComponentB.h in Headers */,
-				F79C361BE9CBECE0AA93E349F4733CCE /* SubComponentManager.h in Headers */,
+				A62283EC0572B592E169E886DB36EE7F /* MGJRouter-umbrella.h in Headers */,
+				48B3D7ED90DFB8A95FDD380D7C589088 /* MGJRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A70E78FCCA79E2DDCED788E56C74F0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B855B65841D9D55D38CA3F0EC67436 /* SubComponentB-umbrella.h in Headers */,
+				E7D8AD38D02616BDE3753C44E0C5D37E /* SubComponentB.h in Headers */,
+				17B9D7E4EE17D6501405084D9E6E23F7 /* SubComponentManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,33 +335,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61DDF2C6AFF76182BCC2F3DA0B173E8B /* Headers */ = {
+		F336298045E7709788971AC41E0F3A39 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577749A004E3113B135EA25C9EE968C3 /* Pods-SubComponentB_Example-umbrella.h in Headers */,
+				85FCE32FBBF1D5E2F9A50583444B1DA0 /* Pods-SubComponentB_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6C3405BE0DFAD1677B9D7A4429DB1FF2 /* SubComponentB */ = {
+		05EFAB4641387DB59867C088BAF00810 /* MGJRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E78AA885463695DAA5E712D528A7CC6 /* Build configuration list for PBXNativeTarget "SubComponentB" */;
+			buildConfigurationList = 84CD4EA5394B5249E7E20EFA97AF4B16 /* Build configuration list for PBXNativeTarget "MGJRouter" */;
 			buildPhases = (
-				0C30491E46DBCE3E0E49AFE2F9967EA2 /* Headers */,
-				FD251C0FCD81529DCF096FD2DCDB4C90 /* Sources */,
-				DE3CA66893510454B28167E4AD6CD315 /* Frameworks */,
-				E43B420857504EB86FF2B7B220948C85 /* Resources */,
+				009B6EFDBFA9848BA9E4444393ED7F88 /* Headers */,
+				27881DE39CDE163282D355939FBB81F3 /* Sources */,
+				67AB940BC4E1101B08B9351A44B1C7C4 /* Frameworks */,
+				7A1E5805C1EA3820EE873D9675684133 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = MGJRouter;
+			productName = MGJRouter;
+			productReference = 410558060794E6D47E8BB11CE488C296 /* MGJRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C3405BE0DFAD1677B9D7A4429DB1FF2 /* SubComponentB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C867B0E86C53FE3DC26F41B4066548E /* Build configuration list for PBXNativeTarget "SubComponentB" */;
+			buildPhases = (
+				1A70E78FCCA79E2DDCED788E56C74F0F /* Headers */,
+				F169AB395815A12B6452A6548AD7709A /* Sources */,
+				216FE884E075AC6D16057D278DB3E5A9 /* Frameworks */,
+				AF827701A21A731ACB0893597EAA48C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C9720736E0E9FA11FB80DAA9BB05CB6 /* PBXTargetDependency */,
+			);
 			name = SubComponentB;
 			productName = SubComponentB;
-			productReference = 5E4C42A32CF458C8804F0F2834400EF2 /* SubComponentB.framework */;
+			productReference = BB8AD6ACFD9542BF9110BE9981A1C054 /* SubComponentB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A7F5330450DEB14E4A146F5DC1E79521 /* Pods-SubComponentB_Tests */ = {
@@ -296,26 +399,27 @@
 			);
 			name = "Pods-SubComponentB_Tests";
 			productName = "Pods-SubComponentB_Tests";
-			productReference = D94927629EBF0B59055DD1322DD55DA1 /* Pods_SubComponentB_Tests.framework */;
+			productReference = 4577D5F19E39E03437D0CE15A89F7646 /* Pods_SubComponentB_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C50A3A9133B9BA13E04136D1B222EFDC /* Pods-SubComponentB_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF063330065E8FC241C00282B20CC6B3 /* Build configuration list for PBXNativeTarget "Pods-SubComponentB_Example" */;
+			buildConfigurationList = 68046417A00D7505DF82F1FB569D42C0 /* Build configuration list for PBXNativeTarget "Pods-SubComponentB_Example" */;
 			buildPhases = (
-				61DDF2C6AFF76182BCC2F3DA0B173E8B /* Headers */,
-				5AED666BBD730FA4D5D9A1F54983E5B0 /* Sources */,
-				8ABB6A2D4CD6A1934B5B59F5554DF313 /* Frameworks */,
-				F78EBC6FC27A0CAEF362F3051A99F678 /* Resources */,
+				F336298045E7709788971AC41E0F3A39 /* Headers */,
+				4BCC01147763979EE73BC2F076F37D35 /* Sources */,
+				480886415933A7DE4562644F18E9A7F2 /* Frameworks */,
+				C23DFA39B2EB3834CAD1E8C4ACCF88A7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				52ABB8D5A933C9F1EF1C6E09676E4FA6 /* PBXTargetDependency */,
+				D131CCD9015DF8EB7363CE6C6CAF067B /* PBXTargetDependency */,
+				825B1C4EB6B8B2084B10F56B9C985AF4 /* PBXTargetDependency */,
 			);
 			name = "Pods-SubComponentB_Example";
 			productName = "Pods-SubComponentB_Example";
-			productReference = C87EFE650670B168273408BDD4E22EA7 /* Pods_SubComponentB_Example.framework */;
+			productReference = C98A2B778A9A1876989A0E6DEDDF92DB /* Pods_SubComponentB_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -335,10 +439,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 375ADFC64D47CB5E6BC2D68B248BCAF7 /* Products */;
+			productRefGroup = 69F4FB18CDC16ABFB27DF879F46EDCD5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				05EFAB4641387DB59867C088BAF00810 /* MGJRouter */,
 				C50A3A9133B9BA13E04136D1B222EFDC /* Pods-SubComponentB_Example */,
 				A7F5330450DEB14E4A146F5DC1E79521 /* Pods-SubComponentB_Tests */,
 				6C3405BE0DFAD1677B9D7A4429DB1FF2 /* SubComponentB */,
@@ -347,6 +452,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7A1E5805C1EA3820EE873D9675684133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A1EF9DEE61AE2DF4C2911D6CF61C598 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,14 +466,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E43B420857504EB86FF2B7B220948C85 /* Resources */ = {
+		AF827701A21A731ACB0893597EAA48C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F78EBC6FC27A0CAEF362F3051A99F678 /* Resources */ = {
+		C23DFA39B2EB3834CAD1E8C4ACCF88A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,38 +491,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AED666BBD730FA4D5D9A1F54983E5B0 /* Sources */ = {
+		27881DE39CDE163282D355939FBB81F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B5F8302273ED77CCDDC27E1CFB5D388 /* Pods-SubComponentB_Example-dummy.m in Sources */,
+				D03BC0C21FD004096DB94533FDDEC02C /* MGJRouter-dummy.m in Sources */,
+				576B7328FD59072438E4EBFEB9CCF237 /* MGJRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD251C0FCD81529DCF096FD2DCDB4C90 /* Sources */ = {
+		4BCC01147763979EE73BC2F076F37D35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC432E0933C1A996ACF680DF98CCE2E8 /* SubComponentB-dummy.m in Sources */,
-				61931F1F680FD23F951C6FB32E94F3ED /* SubComponentB.m in Sources */,
-				E81CEAEB7BED87FA504A76BEF69A56CD /* SubComponentManager.m in Sources */,
+				61CA328C9FDAE8EE2EFCB32945AFC56E /* Pods-SubComponentB_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F169AB395815A12B6452A6548AD7709A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD63F1EB51AFD9A0DFBE347027A16E3 /* SubComponentB-dummy.m in Sources */,
+				C36F7FA1DDC5CE7C6B97605D96592273 /* SubComponentB.m in Sources */,
+				575DF04C2890E4FA40D21396FDC2F0C7 /* SubComponentManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		52ABB8D5A933C9F1EF1C6E09676E4FA6 /* PBXTargetDependency */ = {
+		5C9720736E0E9FA11FB80DAA9BB05CB6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SubComponentB;
-			target = 6C3405BE0DFAD1677B9D7A4429DB1FF2 /* SubComponentB */;
-			targetProxy = 0C58AC64E2B9F041F217460FEBD2A0DB /* PBXContainerItemProxy */;
+			name = MGJRouter;
+			target = 05EFAB4641387DB59867C088BAF00810 /* MGJRouter */;
+			targetProxy = 2E2B900C2B238565383E004FFDBF9769 /* PBXContainerItemProxy */;
 		};
 		742905970AB5ED7D29E31FDF2D5A7E52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SubComponentB_Example";
 			target = C50A3A9133B9BA13E04136D1B222EFDC /* Pods-SubComponentB_Example */;
 			targetProxy = 8E6467A2AAEE9A02CBA8F4AC0882E4A1 /* PBXContainerItemProxy */;
+		};
+		825B1C4EB6B8B2084B10F56B9C985AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SubComponentB;
+			target = 6C3405BE0DFAD1677B9D7A4429DB1FF2 /* SubComponentB */;
+			targetProxy = F6FBF47696B2D91D9A5FF7E28C8A1470 /* PBXContainerItemProxy */;
+		};
+		D131CCD9015DF8EB7363CE6C6CAF067B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGJRouter;
+			target = 05EFAB4641387DB59867C088BAF00810 /* MGJRouter */;
+			targetProxy = 7FB2E232BC5A7B2C6E88100B8491E74E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -448,69 +581,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		36175D55E0BFAD4A9097FA070F0DB9EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55F8853A2DBE80AB87C0DF58F9401310 /* SubComponentB.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SubComponentB/SubComponentB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SubComponentB/SubComponentB-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SubComponentB/SubComponentB.modulemap";
-				PRODUCT_MODULE_NAME = SubComponentB;
-				PRODUCT_NAME = SubComponentB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3FD15E819448B9422ECBFEB7F54EEB38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55F8853A2DBE80AB87C0DF58F9401310 /* SubComponentB.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SubComponentB/SubComponentB-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SubComponentB/SubComponentB-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SubComponentB/SubComponentB.modulemap";
-				PRODUCT_MODULE_NAME = SubComponentB;
-				PRODUCT_NAME = SubComponentB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -571,6 +641,37 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		66E02B8D580E3597DFC01695FFB2C188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BADD633993E74B102D183570FA35FF78 /* MGJRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGJRouter/MGJRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGJRouter/MGJRouter.modulemap";
+				PRODUCT_MODULE_NAME = MGJRouter;
+				PRODUCT_NAME = MGJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		74F897E8E9DA1C161711ADCA6B26936C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -669,7 +770,7 @@
 			};
 			name = Debug;
 		};
-		943ADB280F3B63F479458D40866BB3C4 /* Release */ = {
+		82B8C6072CE9C5940C02F121800E4DB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB64D66366C4E28BD175ADE34CAE1DDE /* Pods-SubComponentB_Example.release.xcconfig */;
 			buildSettings = {
@@ -703,7 +804,39 @@
 			};
 			name = Release;
 		};
-		962DFE59DA84EDB8B54E4C7488C2AF60 /* Debug */ = {
+		9FBAE63DAF70AFACD73409C6CDAD71BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F8853A2DBE80AB87C0DF58F9401310 /* SubComponentB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SubComponentB/SubComponentB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SubComponentB/SubComponentB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SubComponentB/SubComponentB.modulemap";
+				PRODUCT_MODULE_NAME = SubComponentB;
+				PRODUCT_NAME = SubComponentB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB5BD76D7623BDFDF1034AA2BFCA2AE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3216458375CBF2A49DAD31C847546F5D /* Pods-SubComponentB_Example.debug.xcconfig */;
 			buildSettings = {
@@ -736,9 +869,81 @@
 			};
 			name = Debug;
 		};
+		BFAFC9A724604592BA06937BDA3BE8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F8853A2DBE80AB87C0DF58F9401310 /* SubComponentB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SubComponentB/SubComponentB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SubComponentB/SubComponentB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SubComponentB/SubComponentB.modulemap";
+				PRODUCT_MODULE_NAME = SubComponentB;
+				PRODUCT_NAME = SubComponentB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA2D57BA0340EC931D8ADC8806FFB8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BADD633993E74B102D183570FA35FF78 /* MGJRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGJRouter/MGJRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGJRouter/MGJRouter.modulemap";
+				PRODUCT_MODULE_NAME = MGJRouter;
+				PRODUCT_NAME = MGJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3C867B0E86C53FE3DC26F41B4066548E /* Build configuration list for PBXNativeTarget "SubComponentB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAFC9A724604592BA06937BDA3BE8C1 /* Debug */,
+				9FBAE63DAF70AFACD73409C6CDAD71BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -748,11 +953,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E78AA885463695DAA5E712D528A7CC6 /* Build configuration list for PBXNativeTarget "SubComponentB" */ = {
+		68046417A00D7505DF82F1FB569D42C0 /* Build configuration list for PBXNativeTarget "Pods-SubComponentB_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FD15E819448B9422ECBFEB7F54EEB38 /* Debug */,
-				36175D55E0BFAD4A9097FA070F0DB9EC /* Release */,
+				AB5BD76D7623BDFDF1034AA2BFCA2AE0 /* Debug */,
+				82B8C6072CE9C5940C02F121800E4DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CD4EA5394B5249E7E20EFA97AF4B16 /* Build configuration list for PBXNativeTarget "MGJRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E02B8D580E3597DFC01695FFB2C188 /* Debug */,
+				EA2D57BA0340EC931D8ADC8806FFB8B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -762,15 +976,6 @@
 			buildConfigurations = (
 				74F897E8E9DA1C161711ADCA6B26936C /* Debug */,
 				1BFB808FDEE8A8E363BF59105793F259 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DF063330065E8FC241C00282B20CC6B3 /* Build configuration list for PBXNativeTarget "Pods-SubComponentB_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				962DFE59DA84EDB8B54E4C7488C2AF60 /* Debug */,
-				943ADB280F3B63F479458D40866BB3C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

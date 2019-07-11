@@ -7,7 +7,7 @@
 //
 
 #import "SCViewController.h"
-//#import <MGJRouter/MGJRouter.h>
+#import <MGJRouter/MGJRouter.h>
 #import <SubComponentB/SubComponentB.h>
 @interface SCViewController ()
 
@@ -43,10 +43,10 @@
 
 - (void)btnAction
 {
-    SubComponentB *vc = [SubComponentB new];
+//    SubComponentB *vc = [SubComponentB new];
 //    vc.a = 2;
-        [self presentViewController:vc animated:YES completion:nil];
-//    [MGJRouter openURL:@"gfloan://subcomponentc" withUserInfo:@{@"presentvc":self} completion:^(id result) {
-//    }];
+//        [self presentViewController:vc animated:YES completion:nil];
+    [MGJRouter openURL:@"gfloan://subcomponentc" withUserInfo:@{@"presentvc":self} completion:^(id result) {
+    }];
 }
 @end

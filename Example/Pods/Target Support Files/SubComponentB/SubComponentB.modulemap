@@ -1,0 +1,6 @@
+framework module SubComponentB {
+  umbrella header "SubComponentB-umbrella.h"
+
+  export *
+  module * { export * }
+}

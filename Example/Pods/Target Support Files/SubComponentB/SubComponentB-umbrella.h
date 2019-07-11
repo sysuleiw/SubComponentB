@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "SubComponentB.h"
+#import "SubComponentManager.h"
 
 FOUNDATION_EXPORT double SubComponentBVersionNumber;
 FOUNDATION_EXPORT const unsigned char SubComponentBVersionString[];

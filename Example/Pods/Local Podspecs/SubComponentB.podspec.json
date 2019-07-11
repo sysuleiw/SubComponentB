@@ -18,10 +18,9 @@
   "platforms": {
     "ios": "8.0"
   },
-  "public_header_files": "SubComponentB/Classes/*.h",
-  "ios": {
-    "vendored_frameworks": "framework/ios/SubComponentB.framework"
-  },
+  "source_files": [
+    "SubComponentB/Classes/*.{h,m}"
+  ],
   "dependencies": {
     "MGJRouter": [
       "~>0.9.0"

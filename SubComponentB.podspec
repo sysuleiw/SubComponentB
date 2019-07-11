@@ -38,7 +38,6 @@ TODO: Add long description of the pod here.
       'SubComponentB/Classes/*.{h,m}',
       ]
   else
-      s.public_header_files = 'SubComponentB/Classes/*.h'
       s.ios.vendored_framework = 'framework/ios/SubComponentB.framework'
 #      s.ios.vendored_framework = 'framework/ios/SubComponentB.embeddedframework/SubComponentB.framework'
   end

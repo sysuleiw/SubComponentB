@@ -1,6 +1,6 @@
 PODS:
   - MGJRouter (0.9.3)
-  - SubComponentB (0.1.1):
+  - SubComponentB (0.1.2):
     - MGJRouter (~> 0.9.0)
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
-  SubComponentB: 794757b3bb2c0e8b7dc4f343da514b6afb137f75
+  SubComponentB: fc404b0359dc2056dd5b9546cc94dc5d7d5c8344
 
 PODFILE CHECKSUM: e6177d4d20ba94bd44514fc58d561625ed9f365b
 

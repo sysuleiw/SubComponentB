@@ -1,6 +1,6 @@
 {
   "name": "SubComponentB",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of SubComponentB.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/sysuleiw/SubComponentB",
@@ -13,14 +13,14 @@
   },
   "source": {
     "git": "https://github.com/sysuleiw/SubComponentB.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": [
-    "SubComponentB/Classes/*.{h,m}"
-  ],
+  "ios": {
+    "vendored_frameworks": "framework/ios/SubComponentB.framework"
+  },
   "dependencies": {
     "MGJRouter": [
       "~>0.9.0"

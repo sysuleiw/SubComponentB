@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 static NSString *PRESENT_VIEWCONTROLLER_URL = @"gfloan://subcomponentc";
 @interface SubComponentManager : NSObject
 
++(void)showLog;
 @end
 
 NS_ASSUME_NONNULL_END

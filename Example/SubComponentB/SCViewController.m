@@ -8,7 +8,8 @@
 
 #import "SCViewController.h"
 #import <MGJRouter/MGJRouter.h>
-#import <SubComponentB/SubComponentB.h>
+//#import <SubComponentB/SubComponentB.h>
+#import <SubComponentB/SubComponentManager.h>
 @interface SCViewController ()
 
 @property (nonatomic, strong) UIButton *btn;
@@ -43,11 +44,12 @@
 
 - (void)btnAction
 {
-    SubComponentB *vc = [SubComponentB new];
-    [self presentViewController:vc animated:YES completion:nil];
+//    SubComponentB *vc = [SubComponentB new];
+//    [self presentViewController:vc animated:YES completion:nil];
     
+    [SubComponentManager showLog];
     
-//    [MGJRouter openURL:@"gfloan://subcomponentc" withUserInfo:@{@"presentvc":self} completion:^(id result) {
-//    }];
+    [MGJRouter openURL:@"gfloan://subcomponentc" withUserInfo:@{@"presentvc":self} completion:^(id result) {
+    }];
 }
 @end
